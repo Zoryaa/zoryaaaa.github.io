@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@500&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rancho', cursive;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ******************* NAVBAR ******************* */
+nav {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-size: 150%;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+    float: left;
+}
+
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(../media/60a4225bc1f0c.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imagePrincipale {
+    text-transform: uppercase;
+    text-shadow: 1px 3px 2px black;    
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+}
+.joinx {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    }
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color:black;
+    box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+    text-align: center;
+    color:black;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+/* *******************CRATES********************** */
+/*#crates
+{
+background-color: rgb(103, 200, 230);
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+/*
+.box1 {
+    float: left;
+    margin-left: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.box2 {
+    float: center;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    
+}
+.box3 {
+    float: right;
+    margin-right: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+/* ******************* FOOTER ******************** */
+footer {
+    font-family: 'Oswald', sans-serif;
+    background-color: #4e62b1;
+    color:rgb(255, 255, 255);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input,
+textarea,
+button {
+    border: none;
+    outline: none;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    /*border-radius: 8px;*/
+    border: 1px solid rgba(255, 255, 255, .50);
+    background: rgba(255, 255, 255, .25);
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+input:hover,
+textarea:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    transition: 0.5s all;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, .85);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, .85);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(255, 255, 255, .85);
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+    width: 100% !important;
+}
+
+button:hover {
+    background-color: #50df34;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright {
+    font-family: 'Bangers', cursive;
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+
+#icons {
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #00acee;
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+#icon2 fa fa-facebook {
+    color: white !important;
+}
